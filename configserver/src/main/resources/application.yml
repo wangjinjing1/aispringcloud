@@ -7,4 +7,12 @@ spring:
     config:
       server:
         git:
-          uri:
+          uri: https://github.com/wangjinjing1/aispringcloud.git
+          searchPaths: config
+          username: wangjinjing1
+          password: Wjj811971
+      label: master
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

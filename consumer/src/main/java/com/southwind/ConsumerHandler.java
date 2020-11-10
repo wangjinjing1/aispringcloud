@@ -1,4 +1,4 @@
-package com.southwind.controller;
+package com.southwind;
 
 import com.southwind.entity.Student;
 import org.springframework.beans.factory.annotation.Autowired;
